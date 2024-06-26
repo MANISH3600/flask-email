@@ -1,0 +1,25 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Form</title>
+</head>
+<body>
+    <h1>Email Form</h1>
+    <form action="/submit-email" method="post">
+        <label for="receiver_email">Receiver Email:</label><br>
+        <input type="email" id="receiver_email" name="receiver_email" required><br><br>
+        
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" required><br><br>
+        
+        <label for="body_text">Message:</label><br>
+        <textarea id="body_text" name="body_text" rows="4" required></textarea><br><br>
+        
+        <input type="submit" value="Send Email">
+    </form>
+</body>
+</html>

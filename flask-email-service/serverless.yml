@@ -1,0 +1,33 @@
+service: flask-email-api
+
+provider:
+  name: aws
+  runtime: python3.11  # Adjust Python version based on Lambda's supported runtimes
+  region: us-east-1
+  environment:
+    GMAIL_USERNAME: ${env:GMAIL_USERNAME}
+    GMAIL_PASSWORD: ${env:GMAIL_PASSWORD}
+
+plugins:
+  - serverless-python-requirements
+  - serverless-offline
+
+custom:
+  pythonRequirements:
+    dockerizePip: false  # Disable Docker usage for pip if not needed
+  wsgi:
+    app: app.app  # Adjust to your Flask app instance in app.py or wherever your Flask app is defined
+
+functions:
+  app:
+    handler: handler.handler
+    events:
+      - http:
+          path: send-email
+          method: post
+          cors: true
+
+package:
+  exclude:
+    - node_modules/**
+    - venv/**
