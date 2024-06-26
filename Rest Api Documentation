@@ -1,4 +1,4 @@
-api endpoint 
+api endpoint  :
 
 https://cv5d5gvxo3.execute-api.us-east-1.amazonaws.com/test/send-email
 
@@ -7,7 +7,7 @@ https://cv5d5gvxo3.execute-api.us-east-1.amazonaws.com/test/send-email
 
 
 
-body 
+body :
 
 
 {
@@ -15,6 +15,7 @@ body
   "subject": "sending emai'l with flask",
   "body_text": "testing email1"
 }
+
 
 screenshot 
 
