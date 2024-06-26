@@ -11,10 +11,11 @@ body
 
 
 {
-  "receiver_email": "guptamanish1006360@gmail.com",
+  "receiver_email": "youemail",
   "subject": "sending emai'l with flask",
   "body_text": "testing email1"
 }
 
 screenshot 
-<img width="1262" alt="Screenshot 2024-06-26 at 3 15 42 PM" src="https://github.com/MANISH3600/flask-email/assets/141218115/6b1bd88a-0938-4a6e-abac-60857c154ce4">
+
+<img width="1262" alt="Screenshot 2024-06-26 at 3 17 55 PM" src="https://github.com/MANISH3600/flask-email/assets/141218115/78cc4bff-8fbd-43b0-886c-32b09b47b9e6">
