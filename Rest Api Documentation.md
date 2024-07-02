@@ -1,7 +1,7 @@
 
 Api endpoint  :  https://cv5d5gvxo3.execute-api.us-east-1.amazonaws.com/test/send-email
 
-
+Documentation :https://documenter.getpostman.com/view/1019782/2sA3drJadp
 
 body :
 
