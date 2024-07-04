@@ -15,4 +15,5 @@ body :
 
 screenshot 
 
-<img width="1262" alt="Screenshot 2024-06-26 at 3 17 55 PM" src="https://github.com/MANISH3600/flask-email/assets/141218115/78cc4bff-8fbd-43b0-886c-32b09b47b9e6">
+<img width="1262" alt="Screenshot 2024-07-04 at 10 19 45 AM" src="https://github.com/MANISH3600/flask-email/assets/141218115/5c6c84fc-045c-4b4e-8a51-9434a8c5cf77">
+
